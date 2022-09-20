@@ -1,0 +1,38 @@
+h1{
+	font-size: 3em;
+	font-family: 'Arial','Tahoma','Verana',sans-serif;
+	font-family: 'Reem Kufi Fun', sans-serif;
+	text-align: right;
+}
+
+h2,h3{
+	font-size: 2.5em;
+	font-family: 'Noto Serif Georgian', serif;
+	font-style: italic;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p{
+	font-size: 1.2em;
+	font-family: 'DotGothic16', sans-serif;
+	text-align: justify; /*left right center justify*/
+}
+
+.bold-text{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li{
+	text-align: right;
+}
+
+.fa-shrimp{
+	color: aqua;
+	font-size: 5em;
+}
