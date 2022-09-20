@@ -39,11 +39,11 @@ ul li{
 
 main{
 	/*background-color: #45fc03;*/
-	background-color: rgb(120,200,80);
-	opacity:  0.6;
+	background-color: rgba(120,200,80,0.6);
+	/*opacity:  0.6;*/
 
 }
 
 .container{
 	background: #eeff88 url('../img/bg.jpg');
-	}
+}
