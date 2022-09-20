@@ -20,3 +20,8 @@ p{
 footer{
 	text-align: center;
 }
+
+section{
+	max-width: 50%;
+	margin: auto;
+}
