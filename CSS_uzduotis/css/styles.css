@@ -1,27 +1,32 @@
-h1{
-	text-align: center;
-	text-transform: uppercase;
-	font-family: 'Reem Kufi Fun', sans-serif;
-	font-size: 3em;
-	line-height: 2.5;
+h2{/**Elemento selektorius*/
+	color: aquamarine;
 }
+#vip{?**ID selektorius*/
+color: red;
+text-align: center;
 
-h2{
-	text-align: right;
-	font-family: 'Noto Serif Georgian', serif;
-	font-size: 2em;
 }
-
-p{
-	text-align: justify;
-	font-family: 'DotGothic16', sans-serif;
+.bgBlue{/*klases selektorius*/
+background-color: blue;
 }
-
-footer{
-	text-align: center;
+.text-center{
+text-align: center;
+.border
+border: 1px solid red;
 }
-
-section{
-	max-width: 50%;
-	margin: auto;
+section a{
+color: green;
+}
+a[href="http://kitm.lt"]{ /*atributo selektorius*/
+backround-color: red;
+}
+a[href="http://www.delfi.lt"]{
+backround color: black;}
+a[href$=".pdf"]
+{
+  color: green;
+}
+a[href$="docx."]
+{
+  color: black;
 }

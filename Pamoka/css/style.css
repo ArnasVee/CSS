@@ -1,0 +1,58 @@
+.container{
+	max-width: 80%;
+	height: 800px;
+	margin: 0 auto;	
+	background-color: #c2c2be;
+	position: relative;
+}
+
+div div{	
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	line-height: 150px;
+	text-align: center;
+	margin: 10px auto;
+	font-weight: bold;
+	position: absolute;
+}
+
+div div:nth-child(1){
+	background-color: #e8d8e6;
+	z-index: 10;
+}
+div div:nth-child(2){
+	background-color: #dec1da;
+	bottom: 0;
+	left: 0;
+}
+div div:nth-child(3){
+	background-color: #d9a9d2;
+	z-index: 15;
+	top: 0;
+	right: 0;
+}
+div div:nth-child(4){
+	background-color: #d69acd;
+	bottom: 0;
+	right: 0;
+}
+div div:nth-child(5){
+	background-color: #d180c5;
+	left: 40%;
+	right: 40%;
+	bottom: 10%;
+	top: 35%;
+}
+div div:nth-child(6){
+	background-color: #d166c1;
+	right: 0;
+	bottom: 10%;
+	top: 35%;
+}
+div div:nth-child(7){
+	background-color: #c740b3;
+	left: 0;
+	bottom: 10%;
+	top: 35%;
+}
