@@ -53,9 +53,10 @@ main{
 .wrapper{
     background-color: #ee5500;
     padding: 10px;
-    flex-grow: 3;
+    flex-grow: 5;
 }
 aside{
     background-color: #ddff11;
     padding: 40px;
+    flex-grow: 1;
 }
